@@ -73,3 +73,18 @@ A means to solve the challenges (adjustability, individuality, multivariability)
 3. Weber, S.O., Subramaniam, S., Leistner, P., 2025. *A parametric design integrated sampling and general training approach for optimal control oriented surrogate models of light-related quantities*. Journal of Building Performance Simulation. [DOI](http://doi.org/10.18419/opus-17170)
 
 ---
+
+## Reference
+
+If you use this informations of this project in one of your research projects, please cite our paper:
+
+**BibTeX**
+
+```bibtex
+@article{weber_parametric_2025,
+  title={A parametric design integrated sampling and general training approach for optimal control oriented surrogate models of light-related quantities},
+  doi={10.18419/opus-17170},
+  journal={Journal of Building Performance Simulation},
+  author={Weber, S. O. and Subramaniam, S. and Leistner, P.},
+  year={2025}
+}
