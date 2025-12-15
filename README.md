@@ -2,13 +2,11 @@
 
 ![The Incidence Operator Method](src/00_Introduction/Picture.png)
 
-**Frequency:** Monthly
-
 ## Description
 
 Are you working with a complex adaptive geometry, like a building skin, and unsure how to represent the influences of varying incidence directions and sky conditions in a dynamic simulation?
 
-If so, I invite you to subscribe to the newsletter: *"The Incidence Operator Method: Surrogate Ray Tracing for Complex Adaptive Scenes"*.
+If so, I invite you to subscribe to the GitHub repository or the [LinkedIn newsletter](https://www.linkedin.com/newsletters/7386062170603769856/): *"The Incidence Operator Method: Surrogate Ray Tracing for Complex Adaptive Scenes"*.
 
 With this newsletter I aim to inform interested engineers about the current procedure and possible applications of this new method.
 
@@ -76,7 +74,7 @@ A means to solve the challenges (adjustability, individuality, multivariability)
 
 ## Reference
 
-If you use this informations of this project in one of your research projects, please cite our paper:
+If you use some information of this project in one of your research projects, please cite our paper:
 
 **BibTeX**
 
