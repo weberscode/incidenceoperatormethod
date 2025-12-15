@@ -1,6 +1,6 @@
 # The Incidence Operator Method: Surrogate Ray Tracing for Complex Adaptive Scenes
 
-![The Incidence Operator Method](./00_Introduction/Picture.png)
+![The Incidence Operator Method](src/00_Introduction/Picture.png)
 
 **Frequency:** Monthly
 
