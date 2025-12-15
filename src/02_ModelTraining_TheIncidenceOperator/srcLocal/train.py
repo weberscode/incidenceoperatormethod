@@ -34,7 +34,7 @@ def objective_dtree(trial, X_train, X_val, X_test, y_train, y_val, y_test):
 
     return nMAE_val
 
-def train_model_dtree(X_train, y_train, criterion, splitter, max_depth, min_samples_split, min_samples_leaf):
+def train_model_dtree(X_train, y_train,criterion = 'squared_error',splitter = 'best',max_depth = 30,min_samples_split = 2,min_samples_leaf = 1):
     # create modelpipeline
     model = make_pipeline(
         StandardScaler(),

@@ -16,10 +16,8 @@ class ScatterVisualizer:
 
         Parameters:
         -----------
-        model : trained model
-            Model used for prediction.
-        res : int, optional
-            Resolution of the spherical grid (default=50).
+        X : The feature matrix
+        y : The target matrix
         """
         self.X = X
         self.y = y
@@ -106,7 +104,7 @@ class ScatterVisualizer:
                 xaxis=dict(range=[-0.4, 0.4]),
                 yaxis=dict(range=[-.4, 0]),
                 zaxis=dict(range=[0, .4]),
-                camera=dict(eye=dict(x=0.1, y=-1.5, z=0.5))
+                camera=dict(eye=dict(x=1.2, y=-1.8, z=0.9))
             ),
         )
         return fig
@@ -138,7 +136,7 @@ class SurfaceVisualizer:
     All controls (sliders) are aligned in a single column.
     """
 
-    def __init__(self, model, res=100):
+    def __init__(self, model, res=50):
         """
         Initialize the visualizer.
 
@@ -234,13 +232,13 @@ class SurfaceVisualizer:
             width=700,
             height=500,
             margin=dict(l=0, r=0, t=30, b=0),
-            title=f'Incidence operator of sensor {target}',
+            title=f'Incidence operator of all sensors',
             scene=dict(
                 aspectmode='cube',
                 xaxis=dict(range=[-0.4, 0.4]),
                 yaxis=dict(range=[-.4, 0]),
                 zaxis=dict(range=[0, .4]),
-                camera=dict(eye=dict(x=0.1, y=-1.5, z=0.5))
+                camera=dict(eye=dict(x=1.2, y=-1.8, z=0.9))
             ),
         )
         return fig
